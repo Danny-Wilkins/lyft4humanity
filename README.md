@@ -1,4 +1,4 @@
-# LyftForHumanity
+# Lyft4Humanity
 
 ### Help the homeless.
 ### Version 1.0
