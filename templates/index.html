@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>L4H</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="../static/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/effect.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/index.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="icon" href="/public/img/images/poor-people.png">
+		<script src="../static/js/modernizr.custom.js"></script>
+		<!-- Progress Bar -->
+		<script src="//fast.eager.io/FhjVmkFY1Z.js"></script>
+		<!-- End Progress Bar -->
+		<script src="../static/js/nlform.js"></script>
+		<script>
+			window.onload = function() {
+				var nlform = new NLForm(document.getElementById('nl-form'));
+				var images = ['homeless-shelter.jpg'];
+				$('#background').css({
+					'background-image': 'url(/img/images/backgroundImages/' + images[Math.floor(Math.random() * images.length)] + ')'
+				});
+			}
+		</script>
+		<!--<script type="text/javascript" src="https://api.typeform.com/v1/form/z5pYTY?key=4b169802839212949e0bd45b7872426972fe2db3?order_by=date_submit"></script> order by date submitted-->
+	</head>
+	<body class="homelessMain">
+		<div class="homelessText">Lyft4Humanity</div>
+		<div id="ip-container" class="ip-container">
+			<!-- initial header -->
+			<header class="ip-header">
+				<h1 class="ip-logo">
+				<i id="icon" class="homelessIcon"></i>
+				</h1>
+				<div class="ip-loader">
+					<div class="homelessTextLoading">Initializing Lyft4Humanity</div>
+					<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+						<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
+						<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
+					</svg>
+				</div>
+			</header>
+			<!-- main content -->
+			<div class="ip-main">
+				<div id="background"></div>
+				<div id="appContainer" class="appContainer jumbotron">
+					<div class="main clearfix">
+						<div id="nl-form" class="nl-form">
+							<div class="nl-overlay"></div>
+							<!-- Change the width and height values to suit you best -->
+							<!--<div class="typeform-widget" data-url="https://imannandi.typeform.com/to/z5pYTY" data-text="Registration Form" style="width:100%;height:400px;opacity:0.8;"></div>
+							<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+							<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"><a href="https://www.typeform.com/examples/forms/registration-form-template/?utm_campaign=z5pYTY&amp;utm_source=typeform.com-4519099-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-registrationform&amp;utm_term=EN" style="color: #999" target="_blank"></a></div>-->
+							<!-- Change the width and height values to suit you best -->
+							<!--<div class="typeform-widget" data-url="https://imannandi.typeform.com/to/Oms67w" data-text="Registration Form Shelter" style="width:100%;height:400px;"></div>
+							<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+							<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"><a href="https://www.typeform.com/examples/forms/registration-form-template/?utm_campaign=Oms67w&amp;utm_source=typeform.com-4519099-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-registrationform&amp;utm_term=EN" style="color: #999" target="_blank"></a></div>-->
+							<button type="button" class="btn btn-primary buttonHomeless">General Portal </button>
+							<button type="button" class="btn btn-primary buttonShelter">Shelter Manager Portal</button>
+							<p></p>
+							<button type="button" class="btn btn-primary buttonRedeem">Redeem Lyft Code</button>
+						</div>
+
+						<!-- /container -->
+						<div class="modal">
+							<!-- Place at bottom of page -->
+						</div>
+						<script src="../static/js/classie.js"></script>
+						<script src="../static/js/pathLoader.js"></script>
+						<script src="../static/js/main.js"></script>
+						<script src="../static/js/backend.js"></script>
+						<script src="../static/js/loadingModal.js"></script>
+					</body>
+				</html>
