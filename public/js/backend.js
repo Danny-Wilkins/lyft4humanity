@@ -24,6 +24,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(".button-wrapper submit").click(function() {
         httpGetAsync('https://api.typeform.com/v1/form/z5pYTY?key=4b169802839212949e0bd45b7872426972fe2db3', call);
+        $(location).attr('href', 'file:///home/inandi2015/lyft4humanity/templates/success.html')
     });
 });
 
